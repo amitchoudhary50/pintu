@@ -14,7 +14,7 @@ public class A {
 	       
 	        System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
 	        WebDriver driver = new ChromeDriver();
-	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	        driver.get("http://www.store.demoqa.com");
 	 }
 	 
